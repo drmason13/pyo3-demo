@@ -8,7 +8,7 @@ fn greet(name: String) -> PyResult<String> {
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn pyo3_demo(_py: Python, m: &PyModule) -> PyResult<()> {
+fn hello_world(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(greet, m)?)?;
     Ok(())
 }
