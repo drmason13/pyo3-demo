@@ -152,3 +152,8 @@ and what do you know, didn't need all 33 doubles to overflow an i32 after all.
 ## Uninstall:
 
 * To uninstall these demo packages, just use pip, e.g: `python -m pip uninstall hello_world`
+
+## Troubleshooting
+
+This guide was written and tested on a WSL2 Ubuntu system:
+`Linux Desktop 5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux` using `Python 3.10.6` and `rustc 1.65.0 (897e37553 2022-11-02)`. This part of the pyo3 guide might be of some help: https://pyo3.rs/main/building_and_distribution
